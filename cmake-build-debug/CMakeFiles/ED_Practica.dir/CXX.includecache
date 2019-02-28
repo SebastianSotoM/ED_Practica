@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ListaPersonas.cpp
+ListaPersonas.h
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ListaPersonas.h
+
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ListaPersonas.h
+NodoPersona.h
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/NodoPersona.h
+
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/NodoPersona.h
+Persona.h
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/Persona.h
+
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/Persona.h
+iostream
+-
+
