@@ -10,10 +10,13 @@
 class ListaPersonas {
 private:
     NodoPersona *cabeza;
+    int length;
 public:
     ListaPersonas();
     NodoPersona *getCabeza();
     void setCabeza(NodoPersona *);
+    int getLength();
+    void setLength(int);
     void agregarInicio(Persona *);
     void agregarFinal(Persona *);
     void agregarOrdenado(Persona *);

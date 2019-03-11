@@ -69,59 +69,59 @@ CMakeFiles/ED_Practica.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\main.cpp -o CMakeFiles\ED_Practica.dir\main.cpp.s
 
-CMakeFiles/ED_Practica.dir/NodoPersona.cpp.obj: CMakeFiles/ED_Practica.dir/flags.make
-CMakeFiles/ED_Practica.dir/NodoPersona.cpp.obj: ../NodoPersona.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ED_Practica.dir/NodoPersona.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ED_Practica.dir\NodoPersona.cpp.obj -c C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\NodoPersona.cpp
+CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj: CMakeFiles/ED_Practica.dir/flags.make
+CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj: ../ED_Personas/NodoPersona.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ED_Practica.dir\ED_Personas\NodoPersona.cpp.obj -c C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\NodoPersona.cpp
 
-CMakeFiles/ED_Practica.dir/NodoPersona.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ED_Practica.dir/NodoPersona.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\NodoPersona.cpp > CMakeFiles\ED_Practica.dir\NodoPersona.cpp.i
+CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\NodoPersona.cpp > CMakeFiles\ED_Practica.dir\ED_Personas\NodoPersona.cpp.i
 
-CMakeFiles/ED_Practica.dir/NodoPersona.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/NodoPersona.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\NodoPersona.cpp -o CMakeFiles\ED_Practica.dir\NodoPersona.cpp.s
+CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\NodoPersona.cpp -o CMakeFiles\ED_Practica.dir\ED_Personas\NodoPersona.cpp.s
 
-CMakeFiles/ED_Practica.dir/Persona.cpp.obj: CMakeFiles/ED_Practica.dir/flags.make
-CMakeFiles/ED_Practica.dir/Persona.cpp.obj: ../Persona.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ED_Practica.dir/Persona.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ED_Practica.dir\Persona.cpp.obj -c C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\Persona.cpp
+CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj: CMakeFiles/ED_Practica.dir/flags.make
+CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj: ../ED_Personas/Persona.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ED_Practica.dir\ED_Personas\Persona.cpp.obj -c C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\Persona.cpp
 
-CMakeFiles/ED_Practica.dir/Persona.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ED_Practica.dir/Persona.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\Persona.cpp > CMakeFiles\ED_Practica.dir\Persona.cpp.i
+CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\Persona.cpp > CMakeFiles\ED_Practica.dir\ED_Personas\Persona.cpp.i
 
-CMakeFiles/ED_Practica.dir/Persona.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/Persona.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\Persona.cpp -o CMakeFiles\ED_Practica.dir\Persona.cpp.s
+CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\Persona.cpp -o CMakeFiles\ED_Practica.dir\ED_Personas\Persona.cpp.s
 
-CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.obj: CMakeFiles/ED_Practica.dir/flags.make
-CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.obj: ../ListaPersonas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ED_Practica.dir\ListaPersonas.cpp.obj -c C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ListaPersonas.cpp
+CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj: CMakeFiles/ED_Practica.dir/flags.make
+CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj: ../ED_Personas/ListaPersonas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ED_Practica.dir\ED_Personas\ListaPersonas.cpp.obj -c C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\ListaPersonas.cpp
 
-CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ListaPersonas.cpp > CMakeFiles\ED_Practica.dir\ListaPersonas.cpp.i
+CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\ListaPersonas.cpp > CMakeFiles\ED_Practica.dir\ED_Personas\ListaPersonas.cpp.i
 
-CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ListaPersonas.cpp -o CMakeFiles\ED_Practica.dir\ListaPersonas.cpp.s
+CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\ListaPersonas.cpp -o CMakeFiles\ED_Practica.dir\ED_Personas\ListaPersonas.cpp.s
 
 # Object files for target ED_Practica
 ED_Practica_OBJECTS = \
 "CMakeFiles/ED_Practica.dir/main.cpp.obj" \
-"CMakeFiles/ED_Practica.dir/NodoPersona.cpp.obj" \
-"CMakeFiles/ED_Practica.dir/Persona.cpp.obj" \
-"CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.obj"
+"CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj" \
+"CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj" \
+"CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj"
 
 # External object files for target ED_Practica
 ED_Practica_EXTERNAL_OBJECTS =
 
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/main.cpp.obj
-ED_Practica.exe: CMakeFiles/ED_Practica.dir/NodoPersona.cpp.obj
-ED_Practica.exe: CMakeFiles/ED_Practica.dir/Persona.cpp.obj
-ED_Practica.exe: CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.obj
+ED_Practica.exe: CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj
+ED_Practica.exe: CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj
+ED_Practica.exe: CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/build.make
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/linklibs.rsp
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/objects1.rsp

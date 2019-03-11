@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ListaPersonas.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.obj"
-  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/NodoPersona.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/NodoPersona.cpp.obj"
-  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/Persona.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/Persona.cpp.obj"
+  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/ListaPersonas.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj"
+  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/NodoPersona.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj"
+  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/Persona.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj"
   "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/main.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

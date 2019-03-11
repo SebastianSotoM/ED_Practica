@@ -1,5 +1,7 @@
 #include <iostream>
-#include "ListaPersonas.h"
+#include "ED_Personas/ListaPersonas.h"
+
+using namespace std;
 
 int main() {
     ListaPersonas *lista = new ListaPersonas();
@@ -9,8 +11,13 @@ int main() {
     lista->agregarOrdenado(new Persona("3","Santi",18));
     lista->agregarOrdenado(new Persona("2","Santi",18));
 
-    std::cout<<lista->eliminar("4")<<std::endl;
-
     lista->toString();
+    cout<<lista->getLength()<<endl;
+    cout<<lista->eliminar("2")<<endl;
+    lista->toString();
+    cout<<lista->getLength()<<endl;
+
+
+
     return 0;
 }

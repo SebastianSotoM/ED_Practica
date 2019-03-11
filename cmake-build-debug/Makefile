@@ -122,86 +122,86 @@ ED_Practica/fast:
 	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/build
 .PHONY : ED_Practica/fast
 
-ListaPersonas.obj: ListaPersonas.cpp.obj
+ED_Personas/ListaPersonas.obj: ED_Personas/ListaPersonas.cpp.obj
 
-.PHONY : ListaPersonas.obj
-
-# target to build an object file
-ListaPersonas.cpp.obj:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.obj
-.PHONY : ListaPersonas.cpp.obj
-
-ListaPersonas.i: ListaPersonas.cpp.i
-
-.PHONY : ListaPersonas.i
-
-# target to preprocess a source file
-ListaPersonas.cpp.i:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.i
-.PHONY : ListaPersonas.cpp.i
-
-ListaPersonas.s: ListaPersonas.cpp.s
-
-.PHONY : ListaPersonas.s
-
-# target to generate assembly for a file
-ListaPersonas.cpp.s:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ListaPersonas.cpp.s
-.PHONY : ListaPersonas.cpp.s
-
-NodoPersona.obj: NodoPersona.cpp.obj
-
-.PHONY : NodoPersona.obj
+.PHONY : ED_Personas/ListaPersonas.obj
 
 # target to build an object file
-NodoPersona.cpp.obj:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/NodoPersona.cpp.obj
-.PHONY : NodoPersona.cpp.obj
+ED_Personas/ListaPersonas.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj
+.PHONY : ED_Personas/ListaPersonas.cpp.obj
 
-NodoPersona.i: NodoPersona.cpp.i
+ED_Personas/ListaPersonas.i: ED_Personas/ListaPersonas.cpp.i
 
-.PHONY : NodoPersona.i
+.PHONY : ED_Personas/ListaPersonas.i
 
 # target to preprocess a source file
-NodoPersona.cpp.i:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/NodoPersona.cpp.i
-.PHONY : NodoPersona.cpp.i
+ED_Personas/ListaPersonas.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.i
+.PHONY : ED_Personas/ListaPersonas.cpp.i
 
-NodoPersona.s: NodoPersona.cpp.s
+ED_Personas/ListaPersonas.s: ED_Personas/ListaPersonas.cpp.s
 
-.PHONY : NodoPersona.s
+.PHONY : ED_Personas/ListaPersonas.s
 
 # target to generate assembly for a file
-NodoPersona.cpp.s:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/NodoPersona.cpp.s
-.PHONY : NodoPersona.cpp.s
+ED_Personas/ListaPersonas.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.s
+.PHONY : ED_Personas/ListaPersonas.cpp.s
 
-Persona.obj: Persona.cpp.obj
+ED_Personas/NodoPersona.obj: ED_Personas/NodoPersona.cpp.obj
 
-.PHONY : Persona.obj
+.PHONY : ED_Personas/NodoPersona.obj
 
 # target to build an object file
-Persona.cpp.obj:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/Persona.cpp.obj
-.PHONY : Persona.cpp.obj
+ED_Personas/NodoPersona.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj
+.PHONY : ED_Personas/NodoPersona.cpp.obj
 
-Persona.i: Persona.cpp.i
+ED_Personas/NodoPersona.i: ED_Personas/NodoPersona.cpp.i
 
-.PHONY : Persona.i
+.PHONY : ED_Personas/NodoPersona.i
 
 # target to preprocess a source file
-Persona.cpp.i:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/Persona.cpp.i
-.PHONY : Persona.cpp.i
+ED_Personas/NodoPersona.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.i
+.PHONY : ED_Personas/NodoPersona.cpp.i
 
-Persona.s: Persona.cpp.s
+ED_Personas/NodoPersona.s: ED_Personas/NodoPersona.cpp.s
 
-.PHONY : Persona.s
+.PHONY : ED_Personas/NodoPersona.s
 
 # target to generate assembly for a file
-Persona.cpp.s:
-	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/Persona.cpp.s
-.PHONY : Persona.cpp.s
+ED_Personas/NodoPersona.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.s
+.PHONY : ED_Personas/NodoPersona.cpp.s
+
+ED_Personas/Persona.obj: ED_Personas/Persona.cpp.obj
+
+.PHONY : ED_Personas/Persona.obj
+
+# target to build an object file
+ED_Personas/Persona.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj
+.PHONY : ED_Personas/Persona.cpp.obj
+
+ED_Personas/Persona.i: ED_Personas/Persona.cpp.i
+
+.PHONY : ED_Personas/Persona.i
+
+# target to preprocess a source file
+ED_Personas/Persona.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.i
+.PHONY : ED_Personas/Persona.cpp.i
+
+ED_Personas/Persona.s: ED_Personas/Persona.cpp.s
+
+.PHONY : ED_Personas/Persona.s
+
+# target to generate assembly for a file
+ED_Personas/Persona.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.s
+.PHONY : ED_Personas/Persona.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -239,15 +239,15 @@ help:
 	@echo ... edit_cache
 	@echo ... ED_Practica
 	@echo ... rebuild_cache
-	@echo ... ListaPersonas.obj
-	@echo ... ListaPersonas.i
-	@echo ... ListaPersonas.s
-	@echo ... NodoPersona.obj
-	@echo ... NodoPersona.i
-	@echo ... NodoPersona.s
-	@echo ... Persona.obj
-	@echo ... Persona.i
-	@echo ... Persona.s
+	@echo ... ED_Personas/ListaPersonas.obj
+	@echo ... ED_Personas/ListaPersonas.i
+	@echo ... ED_Personas/ListaPersonas.s
+	@echo ... ED_Personas/NodoPersona.obj
+	@echo ... ED_Personas/NodoPersona.i
+	@echo ... ED_Personas/NodoPersona.s
+	@echo ... ED_Personas/Persona.obj
+	@echo ... ED_Personas/Persona.i
+	@echo ... ED_Personas/Persona.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

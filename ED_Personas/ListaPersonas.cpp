@@ -6,6 +6,7 @@
 
 ListaPersonas::ListaPersonas() {
     this->cabeza = nullptr;
+    this->length = 0;
 }
 
 NodoPersona *ListaPersonas::getCabeza() {
@@ -28,6 +29,7 @@ void ListaPersonas::agregarInicio(Persona *pers) {
         nuevo->setSiguiente(getCabeza());
         setCabeza(nuevo);
     }
+    setLength(getLength()+1);
 }
 
 void ListaPersonas::agregarFinal(Persona *pers) {
@@ -41,6 +43,7 @@ void ListaPersonas::agregarFinal(Persona *pers) {
         }
         aux->setSiguiente(nuevo);
     }
+    setLength(getLength()+1);
 }
 
 void ListaPersonas::agregarOrdenado(Persona *pers) {
@@ -59,7 +62,7 @@ void ListaPersonas::agregarOrdenado(Persona *pers) {
             NodoPersona *nuevo = new NodoPersona(pers);
             nuevo->setSiguiente(aux->getSiguiente());
             aux->setSiguiente(nuevo);
-
+            setLength(getLength()+1);
         }
     }
 }
@@ -81,13 +84,15 @@ bool ListaPersonas::eliminar(std::string _ced) {
     NodoPersona *aux = getCabeza();
     if(getCabeza()->getPersona()->getCedula() == _ced){
         setCabeza(getCabeza()->getSiguiente());
+        setLength(getLength()-1);
         return true;
     }else{
         while (aux->getSiguiente() != nullptr && aux->getSiguiente()->getPersona()->getCedula() != _ced) {
             aux = aux->getSiguiente();
         }
-        if(aux != nullptr){
+        if(aux != nullptr && aux->getPersona()->getCedula() == _ced){
             aux->setSiguiente(aux->getSiguiente()->getSiguiente());
+            setLength(getLength()-1);
             return true;
         }
     }
@@ -99,4 +104,12 @@ std::string ListaPersonas::toString() {
         std::cout << aux->getPersona()->toString() << std::endl;
         aux = aux->getSiguiente();
     }
+}
+
+int ListaPersonas::getLength() {
+    return length;
+}
+
+void ListaPersonas::setLength(int value) {
+    this->length = value;
 }

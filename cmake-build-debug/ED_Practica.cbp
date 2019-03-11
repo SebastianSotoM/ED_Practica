@@ -80,22 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ListaPersonas.cpp">
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/ListaPersonas.cpp">
 			<Option target="ED_Practica"/>
 		</Unit>
-		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ListaPersonas.h">
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/ListaPersonas.h">
 			<Option target="ED_Practica"/>
 		</Unit>
-		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/NodoPersona.cpp">
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/NodoPersona.cpp">
 			<Option target="ED_Practica"/>
 		</Unit>
-		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/NodoPersona.h">
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/NodoPersona.h">
 			<Option target="ED_Practica"/>
 		</Unit>
-		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/Persona.cpp">
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/Persona.cpp">
 			<Option target="ED_Practica"/>
 		</Unit>
-		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/Persona.h">
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/Persona.h">
 			<Option target="ED_Practica"/>
 		</Unit>
 		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/main.cpp">
