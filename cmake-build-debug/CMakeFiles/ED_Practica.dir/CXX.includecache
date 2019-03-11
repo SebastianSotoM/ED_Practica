@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/ListaEnteros.h
+NodoEnteros.h
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/NodoEnteros.h
+
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/NodoEnteros.h
+
 C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/ListaPersonas.h
 NodoPersona.h
 C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/NodoPersona.h
@@ -23,4 +29,6 @@ iostream
 -
 ED_Personas/ListaPersonas.h
 C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/ListaPersonas.h
+ED_Enteros/ListaEnteros.h
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/ListaEnteros.h
 

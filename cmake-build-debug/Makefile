@@ -122,6 +122,60 @@ ED_Practica/fast:
 	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/build
 .PHONY : ED_Practica/fast
 
+ED_Enteros/ListaEnteros.obj: ED_Enteros/ListaEnteros.cpp.obj
+
+.PHONY : ED_Enteros/ListaEnteros.obj
+
+# target to build an object file
+ED_Enteros/ListaEnteros.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj
+.PHONY : ED_Enteros/ListaEnteros.cpp.obj
+
+ED_Enteros/ListaEnteros.i: ED_Enteros/ListaEnteros.cpp.i
+
+.PHONY : ED_Enteros/ListaEnteros.i
+
+# target to preprocess a source file
+ED_Enteros/ListaEnteros.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.i
+.PHONY : ED_Enteros/ListaEnteros.cpp.i
+
+ED_Enteros/ListaEnteros.s: ED_Enteros/ListaEnteros.cpp.s
+
+.PHONY : ED_Enteros/ListaEnteros.s
+
+# target to generate assembly for a file
+ED_Enteros/ListaEnteros.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.s
+.PHONY : ED_Enteros/ListaEnteros.cpp.s
+
+ED_Enteros/NodoEnteros.obj: ED_Enteros/NodoEnteros.cpp.obj
+
+.PHONY : ED_Enteros/NodoEnteros.obj
+
+# target to build an object file
+ED_Enteros/NodoEnteros.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj
+.PHONY : ED_Enteros/NodoEnteros.cpp.obj
+
+ED_Enteros/NodoEnteros.i: ED_Enteros/NodoEnteros.cpp.i
+
+.PHONY : ED_Enteros/NodoEnteros.i
+
+# target to preprocess a source file
+ED_Enteros/NodoEnteros.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.i
+.PHONY : ED_Enteros/NodoEnteros.cpp.i
+
+ED_Enteros/NodoEnteros.s: ED_Enteros/NodoEnteros.cpp.s
+
+.PHONY : ED_Enteros/NodoEnteros.s
+
+# target to generate assembly for a file
+ED_Enteros/NodoEnteros.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.s
+.PHONY : ED_Enteros/NodoEnteros.cpp.s
+
 ED_Personas/ListaPersonas.obj: ED_Personas/ListaPersonas.cpp.obj
 
 .PHONY : ED_Personas/ListaPersonas.obj
@@ -239,6 +293,12 @@ help:
 	@echo ... edit_cache
 	@echo ... ED_Practica
 	@echo ... rebuild_cache
+	@echo ... ED_Enteros/ListaEnteros.obj
+	@echo ... ED_Enteros/ListaEnteros.i
+	@echo ... ED_Enteros/ListaEnteros.s
+	@echo ... ED_Enteros/NodoEnteros.obj
+	@echo ... ED_Enteros/NodoEnteros.i
+	@echo ... ED_Enteros/NodoEnteros.s
 	@echo ... ED_Personas/ListaPersonas.obj
 	@echo ... ED_Personas/ListaPersonas.i
 	@echo ... ED_Personas/ListaPersonas.s

@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/ListaEnteros.cpp">
+			<Option target="ED_Practica"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/ListaEnteros.h">
+			<Option target="ED_Practica"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/NodoEnteros.cpp">
+			<Option target="ED_Practica"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/NodoEnteros.h">
+			<Option target="ED_Practica"/>
+		</Unit>
 		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/ListaPersonas.cpp">
 			<Option target="ED_Practica"/>
 		</Unit>

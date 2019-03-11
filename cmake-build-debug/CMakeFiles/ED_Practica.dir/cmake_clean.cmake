@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj"
   "CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj"
   "CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj"
+  "CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj"
+  "CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj"
   "ED_Practica.pdb"
   "ED_Practica.exe"
   "ED_Practica.exe.manifest"

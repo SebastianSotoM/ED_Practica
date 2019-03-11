@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/ListaEnteros.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj"
+  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Enteros/NodoEnteros.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj"
   "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/ListaPersonas.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj"
   "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/NodoPersona.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj"
   "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/ED_Personas/Persona.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj"

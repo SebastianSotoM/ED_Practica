@@ -108,12 +108,40 @@ CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Personas\ListaPersonas.cpp -o CMakeFiles\ED_Practica.dir\ED_Personas\ListaPersonas.cpp.s
 
+CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj: CMakeFiles/ED_Practica.dir/flags.make
+CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj: ../ED_Enteros/NodoEnteros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ED_Practica.dir\ED_Enteros\NodoEnteros.cpp.obj -c C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Enteros\NodoEnteros.cpp
+
+CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Enteros\NodoEnteros.cpp > CMakeFiles\ED_Practica.dir\ED_Enteros\NodoEnteros.cpp.i
+
+CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Enteros\NodoEnteros.cpp -o CMakeFiles\ED_Practica.dir\ED_Enteros\NodoEnteros.cpp.s
+
+CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj: CMakeFiles/ED_Practica.dir/flags.make
+CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj: ../ED_Enteros/ListaEnteros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ED_Practica.dir\ED_Enteros\ListaEnteros.cpp.obj -c C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Enteros\ListaEnteros.cpp
+
+CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Enteros\ListaEnteros.cpp > CMakeFiles\ED_Practica.dir\ED_Enteros\ListaEnteros.cpp.i
+
+CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\ED_Enteros\ListaEnteros.cpp -o CMakeFiles\ED_Practica.dir\ED_Enteros\ListaEnteros.cpp.s
+
 # Object files for target ED_Practica
 ED_Practica_OBJECTS = \
 "CMakeFiles/ED_Practica.dir/main.cpp.obj" \
 "CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj" \
 "CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj" \
-"CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj"
+"CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj" \
+"CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj" \
+"CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj"
 
 # External object files for target ED_Practica
 ED_Practica_EXTERNAL_OBJECTS =
@@ -122,11 +150,13 @@ ED_Practica.exe: CMakeFiles/ED_Practica.dir/main.cpp.obj
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/ED_Personas/NodoPersona.cpp.obj
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj
+ED_Practica.exe: CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj
+ED_Practica.exe: CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/build.make
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/linklibs.rsp
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/objects1.rsp
 ED_Practica.exe: CMakeFiles/ED_Practica.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ED_Practica.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ED_Practica.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ED_Practica.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
