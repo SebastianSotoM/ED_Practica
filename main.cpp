@@ -13,7 +13,8 @@ int main() {
 
     lista->toString();
     cout<<lista->getLength()<<endl;
-    cout<<lista->eliminar("2")<<endl;
+    int index = 3;
+    cout<<lista->eliminarIndice(index)<<endl;
     lista->toString();
     cout<<lista->getLength()<<endl;
 

@@ -98,7 +98,29 @@ bool ListaPersonas::eliminar(std::string _ced) {
     }
     return false;
 }
-std::string ListaPersonas::toString() {
+
+bool ListaPersonas::eliminarIndice(int &index) {
+    NodoPersona *aux = getCabeza();
+    int i =0;
+    if(getCabeza() != nullptr && index == i){
+        setCabeza(getCabeza()->getSiguiente());
+        setLength(getLength()-1);
+        return true;
+    }else{
+        i++;
+        while (aux->getSiguiente() != nullptr && index != i) {
+            aux = aux->getSiguiente();
+            i++;
+        }
+        if(aux != nullptr && index == i){
+            aux->setSiguiente(aux->getSiguiente()->getSiguiente());
+            setLength(getLength()-1);
+            return true;
+        }
+    }
+    return false;
+}
+void ListaPersonas::toString() {
     NodoPersona *aux = getCabeza();
     while (aux != nullptr) {
         std::cout << aux->getPersona()->toString() << std::endl;

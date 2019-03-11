@@ -24,7 +24,8 @@ public:
     NodoPersona *buscarNodo(std::string);
     Persona *buscar(std::string);
     bool eliminar(std::string);
-    std::string toString();
+    bool eliminarIndice(int &);
+    void toString();
 };
 
 
