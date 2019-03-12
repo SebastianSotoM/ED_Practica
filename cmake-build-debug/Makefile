@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica
+CMAKE_SOURCE_DIR = C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\EstructurasDatos_Ejemplos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\EstructurasDatos_Ejemplos\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\EstructurasDatos_Ejemplos\cmake-build-debug\CMakeFiles C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\EstructurasDatos_Ejemplos\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\EstructurasDatos_Ejemplos\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -175,6 +175,33 @@ ED_Enteros/NodoEnteros.s: ED_Enteros/NodoEnteros.cpp.s
 ED_Enteros/NodoEnteros.cpp.s:
 	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.s
 .PHONY : ED_Enteros/NodoEnteros.cpp.s
+
+ED_Enteros/PilaEnteros.obj: ED_Enteros/PilaEnteros.cpp.obj
+
+.PHONY : ED_Enteros/PilaEnteros.obj
+
+# target to build an object file
+ED_Enteros/PilaEnteros.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/PilaEnteros.cpp.obj
+.PHONY : ED_Enteros/PilaEnteros.cpp.obj
+
+ED_Enteros/PilaEnteros.i: ED_Enteros/PilaEnteros.cpp.i
+
+.PHONY : ED_Enteros/PilaEnteros.i
+
+# target to preprocess a source file
+ED_Enteros/PilaEnteros.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/PilaEnteros.cpp.i
+.PHONY : ED_Enteros/PilaEnteros.cpp.i
+
+ED_Enteros/PilaEnteros.s: ED_Enteros/PilaEnteros.cpp.s
+
+.PHONY : ED_Enteros/PilaEnteros.s
+
+# target to generate assembly for a file
+ED_Enteros/PilaEnteros.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/PilaEnteros.cpp.s
+.PHONY : ED_Enteros/PilaEnteros.cpp.s
 
 ED_Personas/ListaPersonas.obj: ED_Personas/ListaPersonas.cpp.obj
 
@@ -299,6 +326,9 @@ help:
 	@echo ... ED_Enteros/NodoEnteros.obj
 	@echo ... ED_Enteros/NodoEnteros.i
 	@echo ... ED_Enteros/NodoEnteros.s
+	@echo ... ED_Enteros/PilaEnteros.obj
+	@echo ... ED_Enteros/PilaEnteros.i
+	@echo ... ED_Enteros/PilaEnteros.s
 	@echo ... ED_Personas/ListaPersonas.obj
 	@echo ... ED_Personas/ListaPersonas.i
 	@echo ... ED_Personas/ListaPersonas.s

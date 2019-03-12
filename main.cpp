@@ -1,17 +1,33 @@
 #include <iostream>
 #include "ED_Personas/ListaPersonas.h"
 #include "ED_Enteros/ListaEnteros.h"
+#include "ED_Enteros/PilaEnteros.h"
 
 using namespace std;
 
 void probarPersonas();
-
+void probarPilaEnteros();
 void probarEnteros();
 
 int main() {
-//    probarPersonas();
-    probarEnteros();
+    /*probarPersonas();
+    probarEnteros();*/
+    probarPilaEnteros();
     return 0;
+}
+
+void probarPilaEnteros(){
+    PilaEnteros *pila = new PilaEnteros();
+    pila->push(5);
+    pila->push(4);
+    pila->push(3);
+    pila->push(2);
+    pila->push(1);
+
+    cout<< pila->getTop()<<endl;
+    cout<< pila->pop()<<endl;
+    cout<< pila->getTop()<<endl;
+    cout<<pila->getLongitud()<<endl;
 }
 
 void probarEnteros() {

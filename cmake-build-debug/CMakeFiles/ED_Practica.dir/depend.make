@@ -8,6 +8,10 @@ CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj: ../ED_Enteros/NodoEn
 CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj: ../ED_Enteros/NodoEnteros.cpp
 CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj: ../ED_Enteros/NodoEnteros.h
 
+CMakeFiles/ED_Practica.dir/ED_Enteros/PilaEnteros.cpp.obj: ../ED_Enteros/NodoEnteros.h
+CMakeFiles/ED_Practica.dir/ED_Enteros/PilaEnteros.cpp.obj: ../ED_Enteros/PilaEnteros.cpp
+CMakeFiles/ED_Practica.dir/ED_Enteros/PilaEnteros.cpp.obj: ../ED_Enteros/PilaEnteros.h
+
 CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj: ../ED_Personas/ListaPersonas.cpp
 CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj: ../ED_Personas/ListaPersonas.h
 CMakeFiles/ED_Practica.dir/ED_Personas/ListaPersonas.cpp.obj: ../ED_Personas/NodoPersona.h
@@ -22,6 +26,7 @@ CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj: ../ED_Personas/Persona.h
 
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/ListaEnteros.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/NodoEnteros.h
+CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/PilaEnteros.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Personas/ListaPersonas.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Personas/NodoPersona.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Personas/Persona.h

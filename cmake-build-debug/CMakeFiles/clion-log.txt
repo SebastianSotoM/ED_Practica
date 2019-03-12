@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\ED_Practica
+"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\sebas\Desktop\Developer\Estudio\Universidad\2019\C1\EstructurasDatos\GitHubRepos\EstructurasDatos_Ejemplos
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/ED_Practica/cmake-build-debug
+-- Build files have been written to: C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/cmake-build-debug
