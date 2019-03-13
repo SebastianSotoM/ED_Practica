@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ColaEnteros.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Enteros/ColaEnteros.cpp.obj"
   "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaEnteros.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj"
   "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/NodoEnteros.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.obj"
   "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/PilaEnteros.cpp" "C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/cmake-build-debug/CMakeFiles/ED_Practica.dir/ED_Enteros/PilaEnteros.cpp.obj"

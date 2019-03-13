@@ -122,6 +122,33 @@ ED_Practica/fast:
 	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/build
 .PHONY : ED_Practica/fast
 
+ED_Enteros/ColaEnteros.obj: ED_Enteros/ColaEnteros.cpp.obj
+
+.PHONY : ED_Enteros/ColaEnteros.obj
+
+# target to build an object file
+ED_Enteros/ColaEnteros.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ColaEnteros.cpp.obj
+.PHONY : ED_Enteros/ColaEnteros.cpp.obj
+
+ED_Enteros/ColaEnteros.i: ED_Enteros/ColaEnteros.cpp.i
+
+.PHONY : ED_Enteros/ColaEnteros.i
+
+# target to preprocess a source file
+ED_Enteros/ColaEnteros.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ColaEnteros.cpp.i
+.PHONY : ED_Enteros/ColaEnteros.cpp.i
+
+ED_Enteros/ColaEnteros.s: ED_Enteros/ColaEnteros.cpp.s
+
+.PHONY : ED_Enteros/ColaEnteros.s
+
+# target to generate assembly for a file
+ED_Enteros/ColaEnteros.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ColaEnteros.cpp.s
+.PHONY : ED_Enteros/ColaEnteros.cpp.s
+
 ED_Enteros/ListaEnteros.obj: ED_Enteros/ListaEnteros.cpp.obj
 
 .PHONY : ED_Enteros/ListaEnteros.obj
@@ -320,6 +347,9 @@ help:
 	@echo ... edit_cache
 	@echo ... ED_Practica
 	@echo ... rebuild_cache
+	@echo ... ED_Enteros/ColaEnteros.obj
+	@echo ... ED_Enteros/ColaEnteros.i
+	@echo ... ED_Enteros/ColaEnteros.s
 	@echo ... ED_Enteros/ListaEnteros.obj
 	@echo ... ED_Enteros/ListaEnteros.i
 	@echo ... ED_Enteros/ListaEnteros.s
