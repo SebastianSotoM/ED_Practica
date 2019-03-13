@@ -31,7 +31,7 @@ public:
 
     void insertar(int);
 
-    bool atender();
+    int atender();
 
     bool eliminarPos(int);
 };

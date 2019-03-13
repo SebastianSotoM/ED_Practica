@@ -14,9 +14,12 @@ void probarEnteros();
 
 void probarColaEnteros();
 
+void probarDeColaAPila();
+
+void probarDePilaACola();
+
 int main() {
-    probarColaEnteros();
-    probarPilaEnteros();
+    probarDePilaACola();
     return 0;
 }
 
@@ -82,4 +85,87 @@ void probarPersonas() {
     cout << lista->eliminarIndice(index) << endl;
     lista->toString();
     cout << lista->getLength() << endl;
+}
+
+void probarDeColaAPila() {
+
+    cout << "Se crea una cola con los valores {1,2,3,4,5} y una pila vacia" << endl;
+
+    ColaEnteros *cola = new ColaEnteros();
+    cola->insertar(1);
+    cola->insertar(2);
+    cola->insertar(3);
+    cola->insertar(4);
+    cola->insertar(5);
+
+    PilaEnteros *pila = new PilaEnteros();
+
+    cout << "La cola esta vacia\t" << cola->estaVacia() << "\tLongitud actual:\t" << cola->getLongitud() << endl;
+    cout << "La pila esta vacia\t" << pila->estaVacia() << "\tLongitud actual:\t" << pila->getLongitud() << endl;
+
+    cout<<"La cabeza de la cola es:\t"<<cola->getCabeza()->getValue()<<endl;
+    cout<<"La cabeza de la pila es:\t";
+    if(pila->getCabeza() == nullptr)
+        cout<<"nula";
+    else
+        cout<<pila->getCabeza()->getValue();
+    cout<<endl;
+
+    cout<<"Se atiende la cola y el valor se agrega a la pila (esto ocurre 2 veces)"<<endl;
+
+    pila->push(cola->atender());
+    pila->push(cola->atender());
+
+    cout << "La cola esta vacia\t" << cola->estaVacia() << "\tLongitud actual:\t" << cola->getLongitud() << endl;
+    cout << "La pila esta vacia\t" << pila->estaVacia() << "\tLongitud actual:\t" << pila->getLongitud() << endl;
+
+    cout<<"La cabeza de la cola es:\t"<<cola->getCabeza()->getValue()<<endl;
+    cout<<"La cabeza de la pila es:\t";
+    if(pila->getCabeza() == nullptr)
+        cout<<"nula";
+    else
+        cout<<pila->getCabeza()->getValue();
+    cout<<endl;
+}
+
+void probarDePilaACola() {
+
+    cout << "Se crea una pila con los valores {1,2,3,4,5} y una cola vacia" << endl;
+
+    ColaEnteros *cola = new ColaEnteros();
+
+    PilaEnteros *pila = new PilaEnteros();
+    pila->push(1);
+    pila->push(2);
+    pila->push(3);
+    pila->push(4);
+    pila->push(5);
+
+    cout << "La cola esta vacia\t" << cola->estaVacia() << "\tLongitud actual:\t" << cola->getLongitud() << endl;
+    cout << "La pila esta vacia\t" << pila->estaVacia() << "\tLongitud actual:\t" << pila->getLongitud() << endl;
+
+    cout<<"La cabeza de la pila es:\t"<<pila->getCabeza()->getValue()<<endl;
+    cout<<"La cabeza de la cola es:\t";
+    if(cola->getCabeza() == nullptr)
+        cout<<"nula";
+    else
+        cout<<cola->getCabeza()->getValue();
+    cout<<endl;
+
+    cout<<"Se hace pop en la pila y el valor se agrega a la cola (esto ocurre 2 veces)"<<endl;
+
+    cola->insertar(pila->pop());
+    cola->insertar(pila->pop());
+
+    cout << "La cola esta vacia\t" << cola->estaVacia() << "\tLongitud actual:\t" << cola->getLongitud() << endl;
+    cout << "La pila esta vacia\t" << pila->estaVacia() << "\tLongitud actual:\t" << pila->getLongitud() << endl;
+
+    cout<<"La cabeza de la pila es:\t"<<pila->getCabeza()->getValue()<<endl;
+    cout<<"La cabeza de la cola es:\t";
+    if(cola->getCabeza() == nullptr)
+        cout<<"nula";
+    else
+        cout<<cola->getCabeza()->getValue();
+    cout<<endl;
+
 }

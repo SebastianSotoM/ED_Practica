@@ -51,12 +51,14 @@ void ColaEnteros::insertar(int value) {
     }
 }
 
-bool ColaEnteros::atender() {
+int ColaEnteros::atender() {
     if (estaVacia()) {
-        return false;
+        return -1;
     } else {
+        int value = getCabeza()->getValue();
         setCabeza(getCabeza()->getSiguiente());
         setLongitud(getLongitud() - 1);
+        return value;
     }
 }
 
