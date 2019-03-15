@@ -3,6 +3,7 @@
 #include "ED_Enteros/ListaEnteros.h"
 #include "ED_Enteros/PilaEnteros.h"
 #include "ED_Enteros/ColaEnteros.h"
+#include "ED_Enteros/ListaCircularEnteros.h"
 
 using namespace std;
 
@@ -18,9 +19,26 @@ void probarDeColaAPila();
 
 void probarDePilaACola();
 
+void probarListaCircular();
+
 int main() {
-    probarDePilaACola();
+    probarListaCircular();
     return 0;
+}
+
+void probarListaCircular(){
+    ListaCircularEnteros *lista = new ListaCircularEnteros();
+
+    lista->agregarFinal(3);
+    lista->agregarInicio(1);
+    lista->agregarFinal(2);
+
+    lista->toString();
+    cout << "Se imprime la longitud inicial\t" << lista->getLongitud() << endl;
+    int index = 2;
+    cout << "Se elimina el indice:\t" << index << "con resultado:\t" << lista->eliminarIndice(index) << endl;
+    lista->toString();
+    cout << "Se imprime la longitud final\t" << lista->getLongitud() << endl;
 }
 
 void probarColaEnteros() {
@@ -169,3 +187,4 @@ void probarDePilaACola() {
     cout<<endl;
 
 }
+

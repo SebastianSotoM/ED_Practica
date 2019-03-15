@@ -20,6 +20,14 @@ public:
     NodoEnteros *getSiguiente();
     void setSiguiente(NodoEnteros *);
     bool esVacia();
+    void agregarInicio(int);
+    void agregarFinal(int);
+    void agregarOrdenado(int);
+    NodoEnteros *buscarNodo(int);
+    int buscar(int);
+    bool eliminar(int);
+    bool eliminarIndice(int);
+    void toString();
 };
 
 
