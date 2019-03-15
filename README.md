@@ -1,5 +1,5 @@
 # EstructurasDatos_Ejemplos
-## Tipos de listas:
+## Tipos de Estructuras:
 - Listas simples
 - Listas doblemente enlazadas
 - Listas circulares simples
