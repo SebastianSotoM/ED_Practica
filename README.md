@@ -1,3 +1,10 @@
 # EstructurasDatos_Ejemplos
-## Hecho por:
-Sebastián Soto Madrigal & Matthew Russell Obregón
+## Tipos de listas:
+- Listas simples
+- Listas doblemente enlazadas
+- Listas circulares simples
+- Listas circulares doblemente enlazadas
+- Colas
+- ~~Colas de prioridad~~
+- Pilas
+

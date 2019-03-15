@@ -149,6 +149,33 @@ ED_Enteros/ColaEnteros.cpp.s:
 	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ColaEnteros.cpp.s
 .PHONY : ED_Enteros/ColaEnteros.cpp.s
 
+ED_Enteros/ListaCircularEnteros.obj: ED_Enteros/ListaCircularEnteros.cpp.obj
+
+.PHONY : ED_Enteros/ListaCircularEnteros.obj
+
+# target to build an object file
+ED_Enteros/ListaCircularEnteros.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.obj
+.PHONY : ED_Enteros/ListaCircularEnteros.cpp.obj
+
+ED_Enteros/ListaCircularEnteros.i: ED_Enteros/ListaCircularEnteros.cpp.i
+
+.PHONY : ED_Enteros/ListaCircularEnteros.i
+
+# target to preprocess a source file
+ED_Enteros/ListaCircularEnteros.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.i
+.PHONY : ED_Enteros/ListaCircularEnteros.cpp.i
+
+ED_Enteros/ListaCircularEnteros.s: ED_Enteros/ListaCircularEnteros.cpp.s
+
+.PHONY : ED_Enteros/ListaCircularEnteros.s
+
+# target to generate assembly for a file
+ED_Enteros/ListaCircularEnteros.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.s
+.PHONY : ED_Enteros/ListaCircularEnteros.cpp.s
+
 ED_Enteros/ListaEnteros.obj: ED_Enteros/ListaEnteros.cpp.obj
 
 .PHONY : ED_Enteros/ListaEnteros.obj
@@ -202,6 +229,33 @@ ED_Enteros/NodoEnteros.s: ED_Enteros/NodoEnteros.cpp.s
 ED_Enteros/NodoEnteros.cpp.s:
 	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnteros.cpp.s
 .PHONY : ED_Enteros/NodoEnteros.cpp.s
+
+ED_Enteros/NodoEnterosDoblementeEnlazado.obj: ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.obj
+
+.PHONY : ED_Enteros/NodoEnterosDoblementeEnlazado.obj
+
+# target to build an object file
+ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.obj
+.PHONY : ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.obj
+
+ED_Enteros/NodoEnterosDoblementeEnlazado.i: ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.i
+
+.PHONY : ED_Enteros/NodoEnterosDoblementeEnlazado.i
+
+# target to preprocess a source file
+ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.i
+.PHONY : ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.i
+
+ED_Enteros/NodoEnterosDoblementeEnlazado.s: ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.s
+
+.PHONY : ED_Enteros/NodoEnterosDoblementeEnlazado.s
+
+# target to generate assembly for a file
+ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.s
+.PHONY : ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.s
 
 ED_Enteros/PilaEnteros.obj: ED_Enteros/PilaEnteros.cpp.obj
 
@@ -350,12 +404,18 @@ help:
 	@echo ... ED_Enteros/ColaEnteros.obj
 	@echo ... ED_Enteros/ColaEnteros.i
 	@echo ... ED_Enteros/ColaEnteros.s
+	@echo ... ED_Enteros/ListaCircularEnteros.obj
+	@echo ... ED_Enteros/ListaCircularEnteros.i
+	@echo ... ED_Enteros/ListaCircularEnteros.s
 	@echo ... ED_Enteros/ListaEnteros.obj
 	@echo ... ED_Enteros/ListaEnteros.i
 	@echo ... ED_Enteros/ListaEnteros.s
 	@echo ... ED_Enteros/NodoEnteros.obj
 	@echo ... ED_Enteros/NodoEnteros.i
 	@echo ... ED_Enteros/NodoEnteros.s
+	@echo ... ED_Enteros/NodoEnterosDoblementeEnlazado.obj
+	@echo ... ED_Enteros/NodoEnterosDoblementeEnlazado.i
+	@echo ... ED_Enteros/NodoEnterosDoblementeEnlazado.s
 	@echo ... ED_Enteros/PilaEnteros.obj
 	@echo ... ED_Enteros/PilaEnteros.i
 	@echo ... ED_Enteros/PilaEnteros.s
