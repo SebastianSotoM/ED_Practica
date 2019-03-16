@@ -37,8 +37,41 @@ void ListaDoblementeEnlazadaEnteros::agregarInicio(int value) {
     }
 }
 
-void ListaDoblementeEnlazadaEnteros::agregarFinal(int) {}
-void ListaDoblementeEnlazadaEnteros::agregarOrdenado(int) {}
+void ListaDoblementeEnlazadaEnteros::agregarFinal(int value) {
+    NodoEnterosDoblementeEnlazado *nuevo = new NodoEnterosDoblementeEnlazado(value);
+    if(esVacia()){
+        setCabeza(nuevo);
+        this->length++;
+    }else{
+        NodoEnterosDoblementeEnlazado *aux = getCabeza();
+        while (aux->getSiguiente() != nullptr) {
+            aux = aux->getSiguiente();
+        }
+        aux->setSiguiente(nuevo);
+        nuevo->setAnterior(aux);
+        this->length++;
+    }
+}
+void ListaDoblementeEnlazadaEnteros::agregarOrdenado(int value) {
+    if (esVacia()) {
+        agregarInicio(value);
+    } else {
+        NodoEnterosDoblementeEnlazado *aux = getCabeza();
+
+        if (value < aux->getValue()) {
+            agregarInicio(value);
+        } else {
+            while (aux->getSiguiente() != nullptr && value > aux->getSiguiente()->getValue()) {
+                aux = aux->getSiguiente();
+            }
+            NodoEnterosDoblementeEnlazado *nuevo = new NodoEnterosDoblementeEnlazado(value);
+            nuevo->setSiguiente(aux->getSiguiente());
+            nuevo->setAnterior(aux);
+            aux->setSiguiente(nuevo);
+            setLength(getLength()+1);
+        }
+    }
+}
 
 void ListaDoblementeEnlazadaEnteros::mostrarInicioFin(){
     NodoEnterosDoblementeEnlazado *aux = getCabeza();

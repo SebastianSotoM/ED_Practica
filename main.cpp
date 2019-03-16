@@ -35,10 +35,20 @@ void probarListaDoblementeEnlazada(){
     lista->agregarInicio(1);
     lista->agregarInicio(2);
     lista->agregarInicio(3);
-    lista->agregarInicio(4);
+    lista->agregarFinal(4);
 
     lista->mostrarInicioFin();
+    cout<<endl;
     lista->mostrarFinInicio();
+
+    ListaDoblementeEnlazadaEnteros *lista_ord = new ListaDoblementeEnlazadaEnteros();
+    lista_ord->agregarOrdenado(3);
+    lista_ord->agregarOrdenado(91);
+    lista_ord->agregarOrdenado(19);
+    lista_ord->agregarOrdenado(2);
+
+    cout<<endl;
+    lista_ord->mostrarInicioFin();
 }
 
 void probarListaCircular(){
