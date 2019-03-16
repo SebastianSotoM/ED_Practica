@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ED_Practica.dir/ED_Enteros/ColaEnteros.cpp.obj"
   "CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.obj"
   "CMakeFiles/ED_Practica.dir/ED_Enteros/NodoEnterosDoblementeEnlazado.cpp.obj"
+  "CMakeFiles/ED_Practica.dir/ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.obj"
   "ED_Practica.pdb"
   "ED_Practica.exe"
   "ED_Practica.exe.manifest"

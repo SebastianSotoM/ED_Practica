@@ -4,6 +4,7 @@
 #include "ED_Enteros/PilaEnteros.h"
 #include "ED_Enteros/ColaEnteros.h"
 #include "ED_Enteros/ListaCircularEnteros.h"
+#include "ED_Enteros/ListaDoblementeEnlazadaEnteros.h"
 
 using namespace std;
 
@@ -19,11 +20,25 @@ void probarDeColaAPila();
 
 void probarDePilaACola();
 
+void probarListaDoblementeEnlazada();
+
 void probarListaCircular();
 
 int main() {
-    probarListaCircular();
+    probarListaDoblementeEnlazada();
     return 0;
+}
+
+void probarListaDoblementeEnlazada(){
+     ListaDoblementeEnlazadaEnteros *lista = new ListaDoblementeEnlazadaEnteros();
+
+    lista->agregarInicio(1);
+    lista->agregarInicio(2);
+    lista->agregarInicio(3);
+    lista->agregarInicio(4);
+
+    lista->mostrarInicioFin();
+    lista->mostrarFinInicio();
 }
 
 void probarListaCircular(){

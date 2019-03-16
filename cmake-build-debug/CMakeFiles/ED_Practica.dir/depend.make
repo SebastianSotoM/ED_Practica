@@ -9,6 +9,10 @@ CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.obj: ../ED_Entero
 CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.obj: ../ED_Enteros/ListaCircularEnteros.h
 CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.obj: ../ED_Enteros/NodoEnteros.h
 
+CMakeFiles/ED_Practica.dir/ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.obj: ../ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp
+CMakeFiles/ED_Practica.dir/ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.obj: ../ED_Enteros/ListaDoblementeEnlazadaEnteros.h
+CMakeFiles/ED_Practica.dir/ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.obj: ../ED_Enteros/NodoEnterosDoblementeEnlazado.h
+
 CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj: ../ED_Enteros/ListaEnteros.cpp
 CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj: ../ED_Enteros/ListaEnteros.h
 CMakeFiles/ED_Practica.dir/ED_Enteros/ListaEnteros.cpp.obj: ../ED_Enteros/NodoEnteros.h
@@ -37,8 +41,10 @@ CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj: ../ED_Personas/Persona.h
 
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/ColaEnteros.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/ListaCircularEnteros.h
+CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/ListaDoblementeEnlazadaEnteros.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/ListaEnteros.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/NodoEnteros.h
+CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/NodoEnterosDoblementeEnlazado.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Enteros/PilaEnteros.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Personas/ListaPersonas.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj: ../ED_Personas/NodoPersona.h

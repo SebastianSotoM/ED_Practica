@@ -176,6 +176,33 @@ ED_Enteros/ListaCircularEnteros.cpp.s:
 	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.s
 .PHONY : ED_Enteros/ListaCircularEnteros.cpp.s
 
+ED_Enteros/ListaDoblementeEnlazadaEnteros.obj: ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.obj
+
+.PHONY : ED_Enteros/ListaDoblementeEnlazadaEnteros.obj
+
+# target to build an object file
+ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.obj
+.PHONY : ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.obj
+
+ED_Enteros/ListaDoblementeEnlazadaEnteros.i: ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.i
+
+.PHONY : ED_Enteros/ListaDoblementeEnlazadaEnteros.i
+
+# target to preprocess a source file
+ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.i
+.PHONY : ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.i
+
+ED_Enteros/ListaDoblementeEnlazadaEnteros.s: ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.s
+
+.PHONY : ED_Enteros/ListaDoblementeEnlazadaEnteros.s
+
+# target to generate assembly for a file
+ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.s
+.PHONY : ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp.s
+
 ED_Enteros/ListaEnteros.obj: ED_Enteros/ListaEnteros.cpp.obj
 
 .PHONY : ED_Enteros/ListaEnteros.obj
@@ -407,6 +434,9 @@ help:
 	@echo ... ED_Enteros/ListaCircularEnteros.obj
 	@echo ... ED_Enteros/ListaCircularEnteros.i
 	@echo ... ED_Enteros/ListaCircularEnteros.s
+	@echo ... ED_Enteros/ListaDoblementeEnlazadaEnteros.obj
+	@echo ... ED_Enteros/ListaDoblementeEnlazadaEnteros.i
+	@echo ... ED_Enteros/ListaDoblementeEnlazadaEnteros.s
 	@echo ... ED_Enteros/ListaEnteros.obj
 	@echo ... ED_Enteros/ListaEnteros.i
 	@echo ... ED_Enteros/ListaEnteros.s
