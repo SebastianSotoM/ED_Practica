@@ -31,7 +31,7 @@ public:
 
     NodoEnterosDoblementeEnlazado *buscarNodo(int);
 
-    int buscar(int);
+    bool buscar(int);
 
     bool eliminar(int);
 

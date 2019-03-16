@@ -32,22 +32,27 @@ int main() {
 void probarListaDoblementeEnlazada(){
      ListaDoblementeEnlazadaEnteros *lista = new ListaDoblementeEnlazadaEnteros();
 
-    lista->agregarInicio(1);
-    lista->agregarInicio(2);
-    lista->agregarInicio(3);
-    lista->agregarFinal(4);
+    lista->agregarInicio(11);
+    lista->agregarInicio(22);
+    lista->agregarInicio(33);
+    lista->agregarFinal(44);
 
     lista->mostrarInicioFin();
     cout<<endl;
+    lista->eliminarIndice(2);
     lista->mostrarFinInicio();
 
     ListaDoblementeEnlazadaEnteros *lista_ord = new ListaDoblementeEnlazadaEnteros();
     lista_ord->agregarOrdenado(3);
-    lista_ord->agregarOrdenado(91);
-    lista_ord->agregarOrdenado(19);
+    lista_ord->agregarOrdenado(1);
     lista_ord->agregarOrdenado(2);
 
     cout<<endl;
+    lista_ord->mostrarInicioFin();
+
+    lista_ord->eliminar(2);
+    cout<<endl;
+    lista_ord->agregarOrdenado(4);
     lista_ord->mostrarInicioFin();
 }
 
