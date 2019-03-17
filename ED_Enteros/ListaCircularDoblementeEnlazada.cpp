@@ -114,3 +114,34 @@ void ListaCircularDoblementeEnlazada::mostrarFinInicio() {
         aux = aux->getAnterior();
     }while(aux != getFinal());
 }
+
+NodoEnterosDoblementeEnlazado* ListaCircularDoblementeEnlazada::buscarNodo(int value) {
+    NodoEnterosDoblementeEnlazado *aux = getInicio();
+    while (aux != nullptr && aux->getValue() != value) {
+        aux = aux->getSiguiente();
+    }
+    return aux;
+}
+
+bool ListaCircularDoblementeEnlazada::buscar(int value) {
+    return (buscarNodo(value) != nullptr);
+}
+
+bool ListaCircularDoblementeEnlazada::eliminar(int value) {
+    NodoEnterosDoblementeEnlazado * toDelete = buscarNodo(value);
+    toDelete->getAnterior()->setSiguiente(toDelete->getSiguiente());
+    toDelete->getSiguiente()->setAnterior(toDelete->getAnterior());
+    longitud--;
+}
+
+bool ListaCircularDoblementeEnlazada::eliminarIndice(int index) {
+    int i =0;
+    NodoEnterosDoblementeEnlazado *aux = getInicio();
+    while(i < index && index > -1 && aux != nullptr){
+        aux = aux->getSiguiente();
+        i++;
+    }
+    if(aux != nullptr && index == i){
+        eliminar(aux->getValue());
+    }
+}

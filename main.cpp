@@ -68,6 +68,31 @@ void probarLCDE() {
 
     cout<<"Lista de f a i"<<endl;
     lista_ord->mostrarFinInicio();
+
+    cout<<"Se borra el valor 3"<<endl;
+    lista_ord->eliminar(3);
+
+    cout<<"Longitud"<<endl;
+    cout<<lista_ord->getLongitud()<<endl;
+
+    cout<<"Lista de i a f"<<endl;
+    lista_ord->mostrarInicioFin();
+
+    cout<<"Lista de f a i"<<endl;
+    lista_ord->mostrarFinInicio();
+
+    cout<<"Se borra el indice 1"<<endl;
+    lista_ord->eliminarIndice(1);
+
+    cout<<"Longitud"<<endl;
+    cout<<lista_ord->getLongitud()<<endl;
+
+    cout<<"Lista de i a f"<<endl;
+    lista_ord->mostrarInicioFin();
+
+    cout<<"Lista de f a i"<<endl;
+    lista_ord->mostrarFinInicio();
+
 }
 
 void probarListaDoblementeEnlazada() {
