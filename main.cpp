@@ -5,6 +5,7 @@
 #include "ED_Enteros/ColaEnteros.h"
 #include "ED_Enteros/ListaCircularEnteros.h"
 #include "ED_Enteros/ListaDoblementeEnlazadaEnteros.h"
+#include "ED_Enteros/ListaCircularDoblementeEnlazada.h"
 
 using namespace std;
 
@@ -24,13 +25,53 @@ void probarListaDoblementeEnlazada();
 
 void probarListaCircular();
 
+void probarLCDE();
+
 int main() {
-    probarListaDoblementeEnlazada();
+    probarLCDE();
     return 0;
 }
 
-void probarListaDoblementeEnlazada(){
-     ListaDoblementeEnlazadaEnteros *lista = new ListaDoblementeEnlazadaEnteros();
+void probarLCDE() {
+    ListaCircularDoblementeEnlazada *lista = new ListaCircularDoblementeEnlazada();
+    cout<<"prueba agregar inicio {3,1,1,2} en ese orden"<<endl;
+    lista->agregarInicio(3);
+    lista->agregarInicio(1);
+    lista->agregarInicio(1);
+    lista->agregarInicio(2);
+
+    cout<<"prueba agregar final {0}"<<endl;
+    lista->agregarFinal(0);
+
+    cout<<"Longitud"<<endl;
+    cout<<lista->getLongitud()<<endl;
+
+    cout<<"Lista de i a f"<<endl;
+    lista->mostrarInicioFin();
+
+    cout<<"Lista de f a i"<<endl;
+    lista->mostrarFinInicio();
+
+    ListaCircularDoblementeEnlazada *lista_ord = new ListaCircularDoblementeEnlazada();
+    cout<<"prueba agregar ordenado {3,1,4,2,8} en ese orden"<<endl;
+    lista_ord->agregarOrdenado(3);
+    lista_ord->agregarOrdenado(1);
+    lista_ord->agregarOrdenado(4);
+    lista_ord->agregarOrdenado(2);
+    lista_ord->agregarOrdenado(8);
+
+    cout<<"Longitud"<<endl;
+    cout<<lista_ord->getLongitud()<<endl;
+
+    cout<<"Lista de i a f"<<endl;
+    lista_ord->mostrarInicioFin();
+
+    cout<<"Lista de f a i"<<endl;
+    lista_ord->mostrarFinInicio();
+}
+
+void probarListaDoblementeEnlazada() {
+    ListaDoblementeEnlazadaEnteros *lista = new ListaDoblementeEnlazadaEnteros();
 
     lista->agregarInicio(11);
     lista->agregarInicio(22);
@@ -38,7 +79,7 @@ void probarListaDoblementeEnlazada(){
     lista->agregarFinal(44);
 
     lista->mostrarInicioFin();
-    cout<<endl;
+    cout << endl;
     lista->eliminarIndice(2);
     lista->mostrarFinInicio();
 
@@ -47,16 +88,16 @@ void probarListaDoblementeEnlazada(){
     lista_ord->agregarOrdenado(1);
     lista_ord->agregarOrdenado(2);
 
-    cout<<endl;
+    cout << endl;
     lista_ord->mostrarInicioFin();
 
     lista_ord->eliminar(2);
-    cout<<endl;
+    cout << endl;
     lista_ord->agregarOrdenado(4);
     lista_ord->mostrarInicioFin();
 }
 
-void probarListaCircular(){
+void probarListaCircular() {
     ListaCircularEnteros *lista = new ListaCircularEnteros();
 
     lista->agregarFinal(3);
@@ -151,15 +192,15 @@ void probarDeColaAPila() {
     cout << "La cola esta vacia\t" << cola->estaVacia() << "\tLongitud actual:\t" << cola->getLongitud() << endl;
     cout << "La pila esta vacia\t" << pila->estaVacia() << "\tLongitud actual:\t" << pila->getLongitud() << endl;
 
-    cout<<"La cabeza de la cola es:\t"<<cola->getCabeza()->getValue()<<endl;
-    cout<<"La cabeza de la pila es:\t";
-    if(pila->getCabeza() == nullptr)
-        cout<<"nula";
+    cout << "La cabeza de la cola es:\t" << cola->getCabeza()->getValue() << endl;
+    cout << "La cabeza de la pila es:\t";
+    if (pila->getCabeza() == nullptr)
+        cout << "nula";
     else
-        cout<<pila->getCabeza()->getValue();
-    cout<<endl;
+        cout << pila->getCabeza()->getValue();
+    cout << endl;
 
-    cout<<"Se atiende la cola y el valor se agrega a la pila (esto ocurre 2 veces)"<<endl;
+    cout << "Se atiende la cola y el valor se agrega a la pila (esto ocurre 2 veces)" << endl;
 
     pila->push(cola->atender());
     pila->push(cola->atender());
@@ -167,13 +208,13 @@ void probarDeColaAPila() {
     cout << "La cola esta vacia\t" << cola->estaVacia() << "\tLongitud actual:\t" << cola->getLongitud() << endl;
     cout << "La pila esta vacia\t" << pila->estaVacia() << "\tLongitud actual:\t" << pila->getLongitud() << endl;
 
-    cout<<"La cabeza de la cola es:\t"<<cola->getCabeza()->getValue()<<endl;
-    cout<<"La cabeza de la pila es:\t";
-    if(pila->getCabeza() == nullptr)
-        cout<<"nula";
+    cout << "La cabeza de la cola es:\t" << cola->getCabeza()->getValue() << endl;
+    cout << "La cabeza de la pila es:\t";
+    if (pila->getCabeza() == nullptr)
+        cout << "nula";
     else
-        cout<<pila->getCabeza()->getValue();
-    cout<<endl;
+        cout << pila->getCabeza()->getValue();
+    cout << endl;
 }
 
 void probarDePilaACola() {
@@ -192,15 +233,15 @@ void probarDePilaACola() {
     cout << "La cola esta vacia\t" << cola->estaVacia() << "\tLongitud actual:\t" << cola->getLongitud() << endl;
     cout << "La pila esta vacia\t" << pila->estaVacia() << "\tLongitud actual:\t" << pila->getLongitud() << endl;
 
-    cout<<"La cabeza de la pila es:\t"<<pila->getCabeza()->getValue()<<endl;
-    cout<<"La cabeza de la cola es:\t";
-    if(cola->getCabeza() == nullptr)
-        cout<<"nula";
+    cout << "La cabeza de la pila es:\t" << pila->getCabeza()->getValue() << endl;
+    cout << "La cabeza de la cola es:\t";
+    if (cola->getCabeza() == nullptr)
+        cout << "nula";
     else
-        cout<<cola->getCabeza()->getValue();
-    cout<<endl;
+        cout << cola->getCabeza()->getValue();
+    cout << endl;
 
-    cout<<"Se hace pop en la pila y el valor se agrega a la cola (esto ocurre 2 veces)"<<endl;
+    cout << "Se hace pop en la pila y el valor se agrega a la cola (esto ocurre 2 veces)" << endl;
 
     cola->insertar(pila->pop());
     cola->insertar(pila->pop());
@@ -208,13 +249,13 @@ void probarDePilaACola() {
     cout << "La cola esta vacia\t" << cola->estaVacia() << "\tLongitud actual:\t" << cola->getLongitud() << endl;
     cout << "La pila esta vacia\t" << pila->estaVacia() << "\tLongitud actual:\t" << pila->getLongitud() << endl;
 
-    cout<<"La cabeza de la pila es:\t"<<pila->getCabeza()->getValue()<<endl;
-    cout<<"La cabeza de la cola es:\t";
-    if(cola->getCabeza() == nullptr)
-        cout<<"nula";
+    cout << "La cabeza de la pila es:\t" << pila->getCabeza()->getValue() << endl;
+    cout << "La cabeza de la cola es:\t";
+    if (cola->getCabeza() == nullptr)
+        cout << "nula";
     else
-        cout<<cola->getCabeza()->getValue();
-    cout<<endl;
+        cout << cola->getCabeza()->getValue();
+    cout << endl;
 
 }
 

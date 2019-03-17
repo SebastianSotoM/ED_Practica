@@ -5,6 +5,10 @@ CMakeFiles/ED_Practica.dir/ED_Enteros/ColaEnteros.cpp.obj
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ColaEnteros.cpp
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ColaEnteros.h
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/NodoEnteros.h
+CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularDoblementeEnlazada.cpp.obj
+ C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularDoblementeEnlazada.cpp
+ C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularDoblementeEnlazada.h
+ C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/NodoEnterosDoblementeEnlazado.h
 CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularEnteros.cpp.obj
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularEnteros.cpp
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularEnteros.h
@@ -41,6 +45,7 @@ CMakeFiles/ED_Practica.dir/ED_Personas/Persona.cpp.obj
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Personas/Persona.h
 CMakeFiles/ED_Practica.dir/main.cpp.obj
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ColaEnteros.h
+ C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularDoblementeEnlazada.h
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularEnteros.h
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaDoblementeEnlazadaEnteros.h
  C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaEnteros.h

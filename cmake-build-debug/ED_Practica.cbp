@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ColaEnteros.h">
 			<Option target="ED_Practica"/>
 		</Unit>
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularDoblementeEnlazada.cpp">
+			<Option target="ED_Practica"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularDoblementeEnlazada.h">
+			<Option target="ED_Practica"/>
+		</Unit>
 		<Unit filename="C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularEnteros.cpp">
 			<Option target="ED_Practica"/>
 		</Unit>

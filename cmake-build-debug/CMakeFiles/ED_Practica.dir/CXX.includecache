@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaDoblementeEnlazadaEnteros.cpp
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularDoblementeEnlazada.cpp
 iostream
 -
-ListaDoblementeEnlazadaEnteros.h
-C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaDoblementeEnlazadaEnteros.h
+ListaCircularDoblementeEnlazada.h
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularDoblementeEnlazada.h
 
-C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaDoblementeEnlazadaEnteros.h
+C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/ListaCircularDoblementeEnlazada.h
 NodoEnterosDoblementeEnlazado.h
 C:/Users/sebas/Desktop/Developer/Estudio/Universidad/2019/C1/EstructurasDatos/GitHubRepos/EstructurasDatos_Ejemplos/ED_Enteros/NodoEnterosDoblementeEnlazado.h
 

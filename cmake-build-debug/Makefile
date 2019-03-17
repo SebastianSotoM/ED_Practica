@@ -149,6 +149,33 @@ ED_Enteros/ColaEnteros.cpp.s:
 	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ColaEnteros.cpp.s
 .PHONY : ED_Enteros/ColaEnteros.cpp.s
 
+ED_Enteros/ListaCircularDoblementeEnlazada.obj: ED_Enteros/ListaCircularDoblementeEnlazada.cpp.obj
+
+.PHONY : ED_Enteros/ListaCircularDoblementeEnlazada.obj
+
+# target to build an object file
+ED_Enteros/ListaCircularDoblementeEnlazada.cpp.obj:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularDoblementeEnlazada.cpp.obj
+.PHONY : ED_Enteros/ListaCircularDoblementeEnlazada.cpp.obj
+
+ED_Enteros/ListaCircularDoblementeEnlazada.i: ED_Enteros/ListaCircularDoblementeEnlazada.cpp.i
+
+.PHONY : ED_Enteros/ListaCircularDoblementeEnlazada.i
+
+# target to preprocess a source file
+ED_Enteros/ListaCircularDoblementeEnlazada.cpp.i:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularDoblementeEnlazada.cpp.i
+.PHONY : ED_Enteros/ListaCircularDoblementeEnlazada.cpp.i
+
+ED_Enteros/ListaCircularDoblementeEnlazada.s: ED_Enteros/ListaCircularDoblementeEnlazada.cpp.s
+
+.PHONY : ED_Enteros/ListaCircularDoblementeEnlazada.s
+
+# target to generate assembly for a file
+ED_Enteros/ListaCircularDoblementeEnlazada.cpp.s:
+	$(MAKE) -f CMakeFiles\ED_Practica.dir\build.make CMakeFiles/ED_Practica.dir/ED_Enteros/ListaCircularDoblementeEnlazada.cpp.s
+.PHONY : ED_Enteros/ListaCircularDoblementeEnlazada.cpp.s
+
 ED_Enteros/ListaCircularEnteros.obj: ED_Enteros/ListaCircularEnteros.cpp.obj
 
 .PHONY : ED_Enteros/ListaCircularEnteros.obj
@@ -431,6 +458,9 @@ help:
 	@echo ... ED_Enteros/ColaEnteros.obj
 	@echo ... ED_Enteros/ColaEnteros.i
 	@echo ... ED_Enteros/ColaEnteros.s
+	@echo ... ED_Enteros/ListaCircularDoblementeEnlazada.obj
+	@echo ... ED_Enteros/ListaCircularDoblementeEnlazada.i
+	@echo ... ED_Enteros/ListaCircularDoblementeEnlazada.s
 	@echo ... ED_Enteros/ListaCircularEnteros.obj
 	@echo ... ED_Enteros/ListaCircularEnteros.i
 	@echo ... ED_Enteros/ListaCircularEnteros.s
